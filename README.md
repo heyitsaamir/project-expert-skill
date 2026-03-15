@@ -11,12 +11,10 @@ This skill fixes that. Run it once on a project, and it generates a lightweight 
 ## Install
 
 ```bash
-# Clone the repo
-git clone https://github.com/heyitsaamir/project-expert-skill.git ~/.claude/skills/project-expert
-
-# Or symlink if you cloned elsewhere
-ln -s /path/to/project-expert-skill ~/.claude/skills/project-expert
+npx skills add heyitsaamir/project-expert-skill -g
 ```
+
+This installs the skill globally so it's available in every Claude Code session.
 
 ## Usage
 
